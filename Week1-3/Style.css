@@ -1,3 +1,111 @@
-﻿body
-{
+﻿body {
+background-color: #eeeeee;
+font-family: Arial, Verdana, sans-serif;
 }
+
+#wrapper {
+width: 80%;
+margin-right: auto;
+margin-left: auto;
+background-color: #9999ff;
+min-width: 700px;
+max-width: 900px;
+border: 2px solid #000000;
+box-shadow: 5px 5px 5px #828282;
+}
+
+#content {
+margin-left: 270px;
+padding: 10px;
+background-color: #ffffff;
+border-top: 1px solid #000000;
+border-left: 1px solid #000000;
+}
+
+#content img, video {
+margin: 10px;
+}
+
+div.center {
+text-align: center;
+}
+
+#content table {
+margin-left: auto;
+margin-right: auto;
+border-collapse: collapse;
+}
+
+th {
+background-color: #ccccff;
+}
+
+tr:nth-of-type(odd) {
+background-color: #ccccff;
+}
+
+header, nav, footer {
+display: block;
+padding: 10px;
+}
+
+header {
+background-color: #ccccff;
+color: #000000;
+background-image: url(skylinecropped.jpg);
+background-position: right;
+background-repeat: no-repeat;
+font-size: 150%;
+padding: 10px 10px 10px 60px;
+text-align: left;
+}
+
+footer {
+background-color: #ccccff;
+text-align: center;
+border-top: 1px solid #000000;
+}
+
+h1 {
+margin-bottom: 20px;
+}
+
+h2 {
+text-align: center;
+}
+
+nav {
+position: relative;
+float: left;
+width: 250px;
+font-weight: bold;
+border-top: 1px solid #000000;
+}
+
+ul {
+list-style-type: none;
+}
+
+a:link { color: #0000ff; }
+a:visited { color: #6666ff; }
+a:focus { color: #6666ff; }
+a:hover { color: #ff6666; }
+a:active { color: #ffffff; background-color: #0000ff; }
+
+label {
+float: left;
+width: 120px;
+display: block;
+clear: left;
+padding-right: 10px;
+}
+
+input, textarea {
+display: block;
+margin-bottom: 20px;
+}
+
+#mySubmit {
+margin-left: 130px;
+}
+

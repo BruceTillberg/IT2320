@@ -1,25 +1,66 @@
 ﻿<!DOCTYPE html>
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="utf-8" />
-    <title>Bruce Tillberg IT2320 Sample Website</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <script src="Script.js"></script>
+    <meta charset="utf-8">
+    <title>North Coast Apps</title>
+    <link rel="stylesheet" href="Style.css" type="text/css">
 </head>
 <body>
-    <script src="Script.js"></script>
-    <div class="myPage">
-        <h2>Bruce's IT2320 Sample Website</h2>
-        <img src="dock1.jpg" />
-        <img src="dock2.jpg" />
-        <img src="beach.jpg" />
-        <img src="edgewater.jpg" />
-        <img src="skyline.jpg" />
-        <img src="skylinecropped.jpg" />
-
-
-    </div>
-
+    <div id="wrapper">
+        <header><h1>North Coast Apps</h1></header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="default.html">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html">
+                        About our Apps
+                    </a>
+                </li>
+                <li>
+                    <a href="find.html">
+                        Find our Apps
+                    </a>
+                </li>
+                <li>
+                    <a href="feedback.html">
+                        Comments/Feedback
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div id="content">
+            <h2>Welcome to North Coast Apps</h2>
+            <p>
+                Located on the beautiful <a href="#vid">Lake Erie shore</a> in Cleveland, Ohio,
+                North Coast Apps is here to bring you solutions to life's little annoying problems
+                using your Android mobile device.
+            </p>
+            <div class="center">
+                <img src="beach.jpg" alt="Edgewater Beach"><br>
+                <img src="dock1.jpg" alt="Cleveland Skyline from Edgewater Pier"><br>
+                <img src="skyline.jpg" alt="Cleveland's Beautiful Skyline"><br>
+                <img src="dock2.jpg" alt="Lake Erie"><br>
+                <div id="vid">
+                    <video controls="controls" poster="edgewater.jpg" width="400" height="300">
+                        <source src="edgewater.mp4" type="video/mp4">
+                        <source src="edgewater.m4v" type="video/mp4">
+                        <source src="edgewater.wmv" type="video/x-ms-wmv">
+                        <source src="edgewater.ogv" type="video/ogg">
+                        <source src="edgewater.webm" type="video/webm">
+                        <a href="edgewater.mp4">Edgewater Beach</a>
+                    </video>
+                </div>
+            </div>
+        </div> <!-- End of Main Content -->
+        <footer>
+            &copy; Copyright Bruce Tillberg<br>
+        </footer>
+    </div> <!-- End of wrapper -->
 </body>
 </html>
