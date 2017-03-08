@@ -1,18 +1,39 @@
-{
+{[
    {
       "name" : "rowling",
       "books" :
       [
-        {  
+         {  
             "title" : "Harry Potter and the Philosopher's Stone",
             "year" : 1997
-        },
-        {
+         },
+         {
             "title" : "Harry Potter and the Chamber of Secrets",
-
-
+            "year" : 1998
+         },{
+            "title" : "Harry Potter and the Prisoner of Azkaban",
+            "year" : 1999
+         }
+      ]
+   },{
+      "name" : "tolkien",
+      "books" :
+      [
+         {  
+            "title" : "The Hobbit",
+            "year" : 1937
+         },
+         {
+            "title" : "The Fellowship of the Ring",
+            "year" : 1954
+         },{
+            "title" : "The Two Towers",
+            "year" : 1954
+         },{
+            "title" : "The Return of the King",
+            "year" : 1955
          }
       ]
 
-   }
+   }]
 }
